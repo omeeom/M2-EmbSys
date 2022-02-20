@@ -1,8 +1,12 @@
 # Digital Thermometer
 
-# Block Diagram :
+Thermometers are the device we use to measure the temperature in any desired scale and we all will be quite familiar with the analog thermometers. There are some disadvantages in analog thermometers and this can be overcome by using digital thermometer.
+The digital thermometer basically consists of a sensor that measures the change in resistance due to heat and converts this change in resistance to temperature.
 
-![Digital Thermometer](https://user-images.githubusercontent.com/80105220/154835932-2b62d1ae-79d4-48c7-8ba7-31de385391ba.jpg)
+## Block Diagram:
+
+![DT](https://user-images.githubusercontent.com/80105220/154845541-461e7bb9-b259-494d-904b-7dabd4cc8a1a.jpg)
+
 
 ## High Level Requirement: 
 * Display: It should disply the measured temperature on display.
@@ -26,8 +30,18 @@
 * Thermister: It is a semiconductor material made up of ceramic and is used to sense the temperature. It is placed at the 
   tip of the thermometer by binding with epoxy and is enclosed inside a cap made up of stainless steel.
 
-* LCD: It is the display of the thermometer.It displays the reading for the
-  temperature to be measured.
+* LCD (16x2): LCD (Liquid Crystal Display) is widely used electronic display module and got a wide range of applications. 
+  A 16×2 LCD consists of 16 columns and 2 rows thereby it is capable of displaying 16 characters in a single line. 
+  It consists of two registers, Command register used to store the command instructions given to the LCD.
+
+* LM35: LM35 is a Precision temperature sensor IC with its output proportional to the temperature (in degree Celsius).
+  It is capable of giving accurate temperature readings compared to thermistor. 
+  The senor is sealed to avoid the effects of oxidation and other factors. 
+  It operates at a temperature range of -55°c to 150°c.
+
+* AVR Microcontroller:The full form of AVR is Alf-Egil Bogen Vegard Wollan RISC microcontroller. It’s used on Computing ,
+  Hardware in Worldwide. 
+  The AVR is a 8-bit RISC single chip microcontroller developed by Atmel. 
 
 * Circuit: It consists of an ADC and a microcontroller along with some passive components.
 
@@ -67,3 +81,8 @@
 * Food Service — uses thermometers in identifying completeness of cooking, and sanitation of ingredients.
 
 * Meteorological thermometers — give air, atmosphere and water temperature readings.
+
+## References:
+  https://www.elprocus.com/digital-thermometers/
+  https://atmega32-avr.com/digital-thermometer-using-avr-lm35-16x2-lcd/
+  https://www.globalspec.com/learnmore/sensors_transducers_detectors/temperature_sensing/digital_thermometers
