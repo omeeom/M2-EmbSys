@@ -5,7 +5,8 @@ The digital thermometer basically consists of a sensor that measures the change 
 
 ## Block Diagram:
 
-![DT](https://user-images.githubusercontent.com/80105220/154845541-461e7bb9-b259-494d-904b-7dabd4cc8a1a.jpg)
+
+![Digital Thermometer](https://user-images.githubusercontent.com/80105220/154858576-0b69526c-3b68-4e8a-bae8-2338ffc56eee.jpg)
 
 
 ## High Level Requirement: 
