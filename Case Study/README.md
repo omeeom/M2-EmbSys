@@ -4,6 +4,18 @@
 
 ![Digital Thermometer](https://user-images.githubusercontent.com/80105220/154835932-2b62d1ae-79d4-48c7-8ba7-31de385391ba.jpg)
 
+## High Level Requirement
+*  
+* Display: It should disply the measured temperature on display.
+* Accuracy: Accuracy should be high.
+* 
+* 
+## Low Level Requirement
+* buzzer
+* push switch
+* led power light
+* 
+
 ## Digital Thermometer components:
 * Battery: It is to provide the supply to the thermometer.
 
@@ -39,3 +51,17 @@
 
 * Industrial Applications: Digital thermometers are also used in power plants, nuclear power plants, blast furnaces, 
   shipbuilding industries, etc. They can measure temperature from -220⁰C to +850⁰C.
+
+* HVAC thermometers — rated for HVAC applications such as duct or flume monitoring.
+
+* Sanitary applications — Sanitary thermometers are rated for sanitary use such as food or pharmaceutical applications.
+
+* Home use — includes digital thermometers used for home health care, cooking, and monitoring temperature on home 
+  appliances such as the refrigerator or swimming pool.
+
+* Laboratory — includes monitoring experiments and chemical reactions as well as maintaining an optimal laboratory 
+  environment.
+
+* Food Service — uses thermometers in identifying completeness of cooking, and sanitation of ingredients.
+
+* Meteorological thermometers — give air, atmosphere and water temperature readings.
