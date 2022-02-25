@@ -35,8 +35,8 @@ The digital thermometer basically consists of a sensor that measures the change 
 
 * `LM35`: The LM35 is an integrated circuit sensor that can be used to measure temperature. 
   It is a precision IC temperature sensor with its output proportional to the temperature (in oC). 
-  The sensor circuitry is sealed and therefore it is not subjected to oxidation and other processes.With  LM35,  temperature  can  
-  be  measured  more  accurately  than  with  a thermistor. 
+  The sensor circuitry is sealed and therefore it is not subjected to oxidation and other processes.
+  With  LM35,  temperature  can be  measured  more  accurately  than  with  a thermistor. 
   It  also  possess  low  self-heating  and  does  not  cause  more  than  0.1 deg C temperature rise in still air. 
   The operating temperature range is from -55°C to 150°C. 
   The output voltage varies by 10mV in response to every oC rise/fall in ambient temperature, i.e., its scale factor is 0.01V/ oC. 
