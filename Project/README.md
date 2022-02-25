@@ -41,11 +41,11 @@ The digital thermometer basically consists of a sensor that measures the change 
   The operating temperature range is from -55°C to 150°C. 
   The output voltage varies by 10mV in response to every oC rise/fall in ambient temperature, i.e., its scale factor is 0.01V/ oC. 
 
-* AVR Microcontroller:The full form of AVR is Alf-Egil Bogen Vegard Wollan RISC 
+* `AVR Microcontroller`:The full form of AVR is Alf-Egil Bogen Vegard Wollan RISC 
   microcontroller. It’s used on Computing,Hardware in Worldwide. 
   The AVR is a 8-bit RISC single chip microcontroller developed by Atmel. 
 
-* Circuit: It consists of an ADC and a microcontroller along with some passive 
+* `Circuit`: It consists of an ADC and a microcontroller along with some passive 
   components.
 
 
