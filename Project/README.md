@@ -10,8 +10,8 @@ The digital thermometer basically consists of a sensor that measures the change 
 
 ## High Level Requirement: 
 * `HLR 1.0`|`Display`: It shall disply the measured temperature on display.
-  `HLR 1.1`|->Fahrenheit or Celsius display
-  `HLR 1.2`|->Max/min readings
+* `HLR 1.1`|->Fahrenheit or Celsius display
+* `HLR 1.2`|->Max/min readings
 * `HLR 2.0`|`Accuracy`: Accuracy shall be high.
 * `HLR 3.0`|`Battery-powered`: Thermometer shall run on battery.
 * `HLR 4.0`|`Operating temperature`:It is the temperature range in which the device will be used.
