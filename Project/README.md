@@ -9,7 +9,7 @@ The digital thermometer basically consists of a sensor that measures the change 
 
 
 ## High Level Requirement: 
-   HLR    |  DESCRIPTION
+   ID     |  DESCRIPTION
 ----------|----------------------------------------------------------------
  `HLR_1.0`|`Display`: It shall disply the measured temperature on display.
  `HLR_1.1`|          ->Fahrenheit or Celsius display
@@ -18,7 +18,7 @@ The digital thermometer basically consists of a sensor that measures the change 
  `HLR_3.0`|`Battery-powered`: Thermometer shall run on battery.
  `HLR_4.0`|`Operating temperature`:It is the temperature range in which the device will be used.
 ## Low Level Requirement:
-   LLR    |  DESCRIPTION
+   ID     |  DESCRIPTION
  ---------|----------------------------------------------------------------------------------------------------------------------------
  `LLR_1.0`|`buzzer`: Switch or alarm signals are designed to alert the user when a reading is finished, or when a temperature value has been reached.
  `LLR_2.0`|`push switch`: To start and stop the thermometer.
