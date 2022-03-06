@@ -9,40 +9,43 @@ The digital thermometer basically consists of a sensor that measures the change 
 
 
 ## High Level Requirement: 
-* `HLR 1.0`|`Display`: It shall disply the measured temperature on display.
-* `HLR 1.1`|->Fahrenheit or Celsius display
-* `HLR 1.2`|->Max/min readings
-* `HLR 2.0`|`Accuracy`: Accuracy shall be high.
-* `HLR 3.0`|`Battery-powered`: Thermometer shall run on battery.
-* `HLR 4.0`|`Operating temperature`:It is the temperature range in which the device will be used.
+   ID     |  DESCRIPTION
+----------|----------------------------------------------------------------
+ `HLR_1.0`|`Display`: It shall disply the measured temperature on display.
+ `HLR_1.1`|          ->Fahrenheit or Celsius display
+ `HLR_1.2`|          ->Max/min readings
+ `HLR_2.0`|`Accuracy`: Accuracy shall be high.
+ `HLR_3.0`|`Battery-powered`: Thermometer shall run on battery.
+ `HLR_4.0`|`Operating temperature`:It is the temperature range in which the device will be used.
 ## Low Level Requirement:
-* `buzzer`: Switch or alarm signals are designed to alert the user when a reading 
-  is finished, or when a temperature value has been reached.
-* `push switch`: To start and stop the thermometer.
-* `led power light`: To show that the thermometer is turned ON.
-* `Portability`: It shall be pocket friendly.
+   ID     |  DESCRIPTION
+ ---------|----------------------------------------------------------------------------------------------------------------------------
+ `LLR_1.0`|`buzzer`: Switch or alarm signals are designed to alert the user when a reading is finished, or when a temperature value has been reached.
+ `LLR_2.0`|`push switch`: To start and stop the thermometer.
+ `LLR_3.0`|`led power light`: To show that the thermometer is turned ON.
+ `LLR_4.0`|`Portability`: It shall be pocket friendly.
 
 ## Digital Thermometer components:
-* Battery: It is to provide the supply to the thermometer.
+* `Battery`: It is to provide the supply to the thermometer.
 
-* Body: The body of the thermometer is made up of hard plastic.
-
-* LCD (16x2): LCD (Liquid Crystal Display) is widely used electronic display  
+* `LCD (16x2)`: LCD (Liquid Crystal Display) is widely used electronic display  
   module and got a wide range of applications. 
   A 16×2 LCD consists of 16 columns and 2 rows thereby it is capable of displaying 16 characters in a single line. 
   It consists of two registers, Command register used to store the command instructions given to the LCD.
 
-* LM35: LM35 is a Precision temperature sensor IC with its output proportional to 
-  the temperature (in degree Celsius).
-  It is capable of giving accurate temperature readings compared to thermistor. 
-  The senor is sealed to avoid the effects of oxidation and other factors. 
-  It operates at a temperature range of -55°c to 150°c.
+* `LM35`: The LM35 is an integrated circuit sensor that can be used to measure temperature. 
+  It is a precision IC temperature sensor with its output proportional to the temperature (in oC). 
+  The sensor circuitry is sealed and therefore it is not subjected to oxidation and other processes.
+  With  LM35,  temperature  can be  measured  more  accurately  than  with  a thermistor. 
+  It  also  possess  low  self-heating  and  does  not  cause  more  than  0.1 deg C temperature rise in still air. 
+  The operating temperature range is from -55°C to 150°C. 
+  The output voltage varies by 10mV in response to every oC rise/fall in ambient temperature, i.e., its scale factor is 0.01V/ oC. 
 
-* AVR Microcontroller:The full form of AVR is Alf-Egil Bogen Vegard Wollan RISC 
+* `AVR Microcontroller`:The full form of AVR is Alf-Egil Bogen Vegard Wollan RISC 
   microcontroller. It’s used on Computing,Hardware in Worldwide. 
   The AVR is a 8-bit RISC single chip microcontroller developed by Atmel. 
 
-* Circuit: It consists of an ADC and a microcontroller along with some passive 
+* `Circuit`: It consists of an ADC and a microcontroller along with some passive 
   components.
 
 
