@@ -28,3 +28,20 @@
 
 * `Circuit`: It consists of an ADC and a microcontroller along with some passive 
   components.
+  
+## ATmega32AVR
+*  The full form of AVR is Alf-Egil Bogen Vegard Wollan RISC microcontroller.   
+*  2 Kilo bytes of internal Static RAM
+*  32 X 8 general working purpose registers
+*  32 Kilo bytes of in system self programmable flash program memory.
+*  1024 bytes EEPROM
+*  Programmable serial USART
+*  8 Channel, 10 bit ADC
+*  One 16-bit timer/counter with separate prescaler, compare mode and capture mode.
+*  Available in 40 pin DIP, 44-pad QFN/MLF and 44-lead QTFP
+*  Two 8-bit timers/counters with separate prescalers and compare modes
+*  32 programmable I/O lines
+*  In system programming by on-chip boot program
+*  Master/slave SPI serial interface
+*  4 PWM channels
+*  Programmable watch dog timer with separate on-chip oscillator
