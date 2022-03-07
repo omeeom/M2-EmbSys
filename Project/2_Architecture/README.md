@@ -1,8 +1,8 @@
-## Block Diagram:
+## Block Diagram (Structural Diagram):
 
 ![DT](https://user-images.githubusercontent.com/80105220/154845541-461e7bb9-b259-494d-904b-7dabd4cc8a1a.jpg)
 
-## Circuit Diagram:
+## Circuit Diagram (Behavioural Diagram):
 
 ![circuit diagram](https://user-images.githubusercontent.com/80105220/157038293-a15eed39-2ecf-4c6f-b70d-75a587f6f0f5.jpg)
 
