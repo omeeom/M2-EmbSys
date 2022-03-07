@@ -7,7 +7,7 @@ Folder             | Description
 `4_Testplan`      | Documents with test plans  and procedures.
 `5_Output`      | Simulated output.
 `6_Application`      | Application of Digital Thermometer.
-`7_ImagesAndVideos`   | Required images used in project.
+`7_ImagesAndVideos`   | Images and videos related to project.
 `8_Report`      | All the details covered.
 `9_References`   | Sites from where reference has been taken.
 
