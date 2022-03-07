@@ -116,3 +116,5 @@ The digital thermometer basically consists of a sensor that measures the change 
   https://atmega32-avr.com/digital-thermometer-using-avr-lm35-16x2-lcd/
 
   https://www.globalspec.com/learnmore/sensors_transducers_detectors/temperature_sensing/digital_thermometers
+  
+  https://microcontrollerslab.com/atmega32-microcontroller-pinout-programming-tutorials-features/
