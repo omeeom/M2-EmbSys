@@ -1,8 +1,8 @@
 #### Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
-`1_Requirements`   | Documents detailing requirements and research.
-`2_Architecture`         | Documents specifying design details.
+`1_Requirements`   | Documents detailing requirements.
+`2_Architecture`   | Documents specifying design details including structural and Behavioural Diagram.
 `3_Implementation` | All codes including source code and make file.
 `4_Testplan`      | Documents with test plans  and procedures.
 `5_Output`      | Simulated output.
