@@ -3,10 +3,10 @@ Folder             | Description
 -------------------| -----------------------------------------
 `1_Requirements`   | Documents detailing requirements and research.
 `2_Architecture`         | Documents specifying design details.
-`3_Implementation` | All codes (source code and make file) in src file.
+`3_Implementation` | All codes including source code and make file.
 `4_Testplan`      | Documents with test plans  and procedures.
 `5_Output`      | Simulated output.
-`6_Application`      | Applciation of Digital Thermometer.
+`6_Application`      | Application of Digital Thermometer.
 `7_ImagesAndVideos`   | Required images used in project.
 `8_Report`      | All the details covered.
 `9_References`   | Sites from where reference has been taken.
