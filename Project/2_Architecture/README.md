@@ -71,3 +71,48 @@
 * AVcc: It is a supply voltage pin for A/D converter and Port A. It must be connected with Vcc.
 
 * AREF: AREF is an analog signal reference pin for the analog to digital converter.
+
+## Interrupt Pins
+Interrupt pins are the requirements of most of the circuits and it is increasing in number due to the rules of physics. The basic purpose of the interrupt pins is to get the attention of the CPU when every external device required. The controller requires an external pulse on specific pins and then the CPU will perform the programmed instructions by putting all other instructions at hold. In ATMega32 the number of interrupt pins is three. All these pins are useable without affecting each other. All interrupt pins within ATMega32 are: 
+* INT0 
+* INT1 
+* INT2 
+## Asynchronous Serial
+ATMega32 supports multiple kinds of serial communication protocol and asynchronous serial communication is one of them. UART Communication is quite popular in most of the peripherals due to its simplicity and dependent on the programming. It communicates with two-pin, one for sending data and second for receiving it. In this microcontroller, there is a module for asynchronous serial communication which is given below: 
+* RXD  
+* TXD
+## Synchronous serial
+Asynchronous and Synchronous serial communication systems are mostly the same but in asynchronous the devices use the internal program for clock and in the synchronous and external clock input/output pins are required to keep the data sync between two devices. In ATMega32 there is a pin for external clock input/output during serial communication.
+* XCK
+## SPI
+SPI protocol is also a popular serial communication due to its managing ability of different devices at a single time. It uses four wires, two for data and one for clock but the forth wire can be used in case of multiple devices. Whenever multiple devices need to operate with ATMega32 then only forth pin (SS) will be increased and the number of data and clock pin will be the same. ATMega support only four pins for single SPI communication device but in case of multiple devices Select Slave pin can be made through programming.
+* SS’ 
+* MOSI 
+* MISO
+* SCK 
+## I2C
+It is also a kind of serial communication but it is mostly used in those devices which requires only one-way communication most of the time. It is quite popular in most of the sensors, LCD, and motors too. I2C pins use one wire for data and second for the clock pulse, both these pins are given below:
+* SCL 
+* SDA 
+## Analog to Digital Channel
+There is a total of 8 analogs to digital channels that can be used as ADC. These all channels use a single 10-bit ADC which can be used by multiple channels at the same time. The channels are only in port A and all are listed below:
+* ADC0
+* ADC1 
+* ADC2
+* ADC3 
+* ADC4 
+* ADC5
+* ADC6 
+* ADC7 
+## Timer Module Pins
+In ATMega32 there is a total of three timers. The first two timers are 8-bits and the third timer is 16-bit. Timer0 and Timer1 can only operate with the external pulse, timer1 only operate within the microcontroller. All these timers can use internal and external oscillator, but they also can use the sperate oscillator. The sperate oscillator will be given through the specific pins. All these oscillator and timer pins are given below:
+* T0 
+* T1 
+* TOSC1 
+* TOSC2
+## Capture/Compare/PWM
+Some pins within the microcontroller can be used to generate the desired output signal. These pins capture the input signal and then compared it with the instructed signal and then it generates an event on the match. These pins are mostly used for PWM generation. All these pins in ATMega32 are:
+* OC0 
+* OC1B
+* OC1A 
+* OC2
