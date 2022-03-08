@@ -5,7 +5,7 @@
 Folder             | Description
 -------------------| -----------------------------------------
 `1_Requirements`   | Documents detailing requirements : High Level Requirement and Low Level Requirement.
-`2_Architecture`   | Documents specifying design including UML,Circuit,Pin Diagram and detailed component discription.
+`2_Architecture`   | Documents specifying design including UML,Circuit,Pin Diagram and detailed component description.
 `3_Implementation` | All codes including source code,make file and simulide file.
 `4_Testplan`       | Documents with test plans and details.
 `5_Output`         | Simulated output.
