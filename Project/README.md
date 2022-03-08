@@ -1,4 +1,4 @@
-##Codiga Badge:
+## Codiga Badge:
 ![Code grade](https://api.codiga.io/project/31729/score/svg)
  ![Code grade](https://api.codiga.io/project/31729/status/svg)
 #### Folder Structure
