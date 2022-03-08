@@ -1,3 +1,13 @@
+/**
+ * @file temp.c
+ * @author Om Gautam (omee1434omee@gmail.com)
+ * @brief 
+ * @version 0.1
+ * @date 2022-03-08
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #ifndef __AVR_ATmega32__
     #define __AVR_ATmega32__
 #endif
