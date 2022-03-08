@@ -1,3 +1,16 @@
+#### Folder Structure
+Folder             | Description
+-------------------| -----------------------------------------
+`1_Requirements`   | Documents detailing requirements.
+`2_Architecture`   | Documents specifying design details including structural and Behavioural Diagram.
+`3_Implementation` | All codes including source code and make file.
+`4_Testplan`      | Documents with test plans  and procedures.
+`5_Output`      | Simulated output.
+`6_Application`      | Application of Digital Thermometer.
+`7_ImagesAndVideos`   | Images and videos related to project.
+`8_Report`      | All the details covered.
+`9_References`   | Sites from where reference has been taken.
+
 # Digital Thermometer
 
 Thermometers are the device we use to measure the temperature in any desired scale and we all will be quite familiar with the analog thermometers. There are some disadvantages in analog thermometers and this can be overcome by using digital thermometer.
@@ -103,3 +116,5 @@ The digital thermometer basically consists of a sensor that measures the change 
   https://atmega32-avr.com/digital-thermometer-using-avr-lm35-16x2-lcd/
 
   https://www.globalspec.com/learnmore/sensors_transducers_detectors/temperature_sensing/digital_thermometers
+  
+  https://microcontrollerslab.com/atmega32-microcontroller-pinout-programming-tutorials-features/
