@@ -23,3 +23,5 @@ Folder             | Description
 
 Thermometers are the device we use to measure the temperature in any desired scale and we all will be quite familiar with the analog thermometers. There are some disadvantages in analog thermometers and this can be overcome by using digital thermometer.
 The digital thermometer basically consists of a sensor that measures the change in resistance due to heat and converts this change in resistance to temperature.
+
+![Digital_Thermo_Simulation_Picture](https://user-images.githubusercontent.com/80105220/157251163-85f8b9b2-ef5c-4eac-b1b6-229d356cc579.jpg)
