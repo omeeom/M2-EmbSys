@@ -173,6 +173,31 @@ Some pins within the microcontroller can be used to generate the desired output 
 * OC1B
 * OC1A 
 * OC2
+## Test Plan
+
+  Test Value in (Volts) | Expected Output Value in (Degree Celcius)
+----------------------|---------------------------------------------
+ 0.25        |    25
+ 0.72        |    72
+ 0.86        |    86
+ 1.05       |    105
+ 2.50       |    250    
+ 
+ ## Simulation Output Video:
+
+https://user-images.githubusercontent.com/80105220/157278471-09b83b3f-495d-4e7c-b528-55bd9d6f5dd6.mp4
+
+## Simulation Output Image:
+![Digital_Thermo_Simulation_Picture](https://user-images.githubusercontent.com/80105220/157251163-85f8b9b2-ef5c-4eac-b1b6-229d356cc579.jpg)
+
+## Codiga Badge:
+![Code grade](https://api.codiga.io/project/31729/score/svg)
+ ![Code grade](https://api.codiga.io/project/31729/status/svg)
+ 
+## Codacy:
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/4836f4fe6826478996dbb345bcc8a396)](https://www.codacy.com/gh/omeeom/M2-EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=omeeom/M2-EmbSys&amp;utm_campaign=Badge_Grade)
+
+
 ## Applications of Digital Thermometer:
 * Medical Applications: The digital thermometers are used to measure human body 
   temperature around 37⁰C. These 
