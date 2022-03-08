@@ -1,15 +1,16 @@
 #### Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
-`1_Requirements`   | Documents detailing requirements.
-`2_Architecture`   | Documents specifying design details including structural and Behavioural Diagram.
-`3_Implementation` | All codes including source code and make file.
-`4_Testplan`      | Documents with test plans  and procedures.
-`5_Output`      | Simulated output.
-`6_Application`      | Application of Digital Thermometer.
-`7_ImagesAndVideos`   | Images and videos related to project.
-`8_Report`      | All the details covered.
-`9_References`   | Sites from where reference has been taken.
+`1_Requirements`   | Documents detailing requirements : High Level Requirement and Low Level Requirement.
+`2_Architecture`   | Documents specifying design details including structural,Behavioural,Circuit and Pin Diagram also  
+                     detailed component discription  .
+`3_Implementation` | All codes including source code,make file and simulide file.
+`4_Testplan`       | Documents with test plans and details.
+`5_Output`         | Simulated output.
+`6_Application`    | Application of Digital Thermometer.
+`7_ImagesAndVideos`| Images and videos related to project.
+`8_Report`         | All the details covered.
+`9_References`     | Sites from where reference has been taken.
 
 # Digital Thermometer
 
