@@ -11,32 +11,13 @@ Folder             | Description
 `8_Report`         | All the details covered.
 `9_References`     | Sites from where reference has been taken.
 
-# Digital Thermometer
 
-Thermometers are the device we use to measure the temperature in any desired scale and we all will be quite familiar with the analog thermometers. There are some disadvantages in analog thermometers and this can be overcome by using digital thermometer.
-The digital thermometer basically consists of a sensor that measures the change in resistance due to heat and converts this change in resistance to temperature.
 
 ## Block Diagram:
 
 ![DT](https://user-images.githubusercontent.com/80105220/154845541-461e7bb9-b259-494d-904b-7dabd4cc8a1a.jpg)
 
 
-## High Level Requirement: 
-   ID     |  DESCRIPTION
-----------|----------------------------------------------------------------
- `HLR_1.0`|`Display`: It shall disply the measured temperature on display.
- `HLR_1.1`|          ->Fahrenheit or Celsius display
- `HLR_1.2`|          ->Max/min readings
- `HLR_2.0`|`Accuracy`: Accuracy shall be high.
- `HLR_3.0`|`Battery-powered`: Thermometer shall run on battery.
- `HLR_4.0`|`Operating temperature`:It is the temperature range in which the device will be used.
-## Low Level Requirement:
-   ID     |  DESCRIPTION
- ---------|----------------------------------------------------------------------------------------------------------------------------
- `LLR_1.0`|`buzzer`: Switch or alarm signals are designed to alert the user when a reading is finished, or when a temperature value has been reached.
- `LLR_2.0`|`push switch`: To start and stop the thermometer.
- `LLR_3.0`|`led power light`: To show that the thermometer is turned ON.
- `LLR_4.0`|`Portability`: It shall be pocket friendly.
 
 ## Digital Thermometer components:
 * `Battery`: It is to provide the supply to the thermometer.
