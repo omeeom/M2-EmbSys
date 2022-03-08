@@ -1,6 +1,10 @@
 ## Codiga Badge:
 ![Code grade](https://api.codiga.io/project/31729/score/svg)
  ![Code grade](https://api.codiga.io/project/31729/status/svg)
+ 
+## Codacy:
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/4836f4fe6826478996dbb345bcc8a396)](https://www.codacy.com/gh/omeeom/M2-EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=omeeom/M2-EmbSys&amp;utm_campaign=Badge_Grade)
+
 #### Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
