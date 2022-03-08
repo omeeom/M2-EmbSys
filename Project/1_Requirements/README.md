@@ -14,3 +14,7 @@
  `LLR_2.0`|`push switch`: To start and stop the thermometer.
  `LLR_3.0`|`led power light`: To show that the thermometer is turned ON.
  `LLR_4.0`|`Portability`: It shall be pocket friendly.
+## Software Requirements:
+   * VS Code(for coding,makefile and .hex file)
+   * Simulide(for simulation)
+
