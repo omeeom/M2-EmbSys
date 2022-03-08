@@ -49,7 +49,10 @@ The digital thermometer basically consists of a sensor that measures the change 
 
 ## Digital Thermometer components:
 
-## LCD (16x2) 
+## LCD (16x2)-Actuator
+* This display offers a way to interface your microcontroller to the outside world. It’s one of the main output devices  
+   in your kit. In fact, it could be considered an `actuator`. This display is compatible with the ubiquitous HD44780 LCD controller. To be able to use it on the breadboard, you’ll need to solder the included 16 pins header strip to the display. It also needs a series resistor for the backlight, as well as a variable resistor to control its contrast.
+*  LCD (Liquid Crystal Display) is widely used electronic display module and got a wide range of applications. 
 *  LCD (Liquid Crystal Display) is widely used electronic display module and got a wide range of applications. 
 *  A 16×2 LCD consists of 16 columns and 2 rows thereby it is capable of displaying 16 characters in a single line. 
 *  It consists of two registers, Command register used to store the command instructions given to the LCD.
@@ -61,7 +64,7 @@ The digital thermometer basically consists of a sensor that measures the change 
 *  Is display can work on two modes like 4-bit & 8-bit
 *  These are obtainable in Blue & Green Backlight
 *  It displays a few custom generated characters
-## LM35 
+## LM35-Sensor 
 * The LM35 is an integrated circuit sensor that can be used to measure temperature. 
 *  It is a precision IC temperature sensor with its output proportional to the temperature (in oC). 
 *  The sensor circuitry is sealed and therefore it is not subjected to oxidation and other processes.
