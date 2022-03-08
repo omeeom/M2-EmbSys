@@ -1,6 +1,6 @@
 ## Test Plan
 
-  Test Value in Volts | Expected Output Value in (Degree Celcius)
+  Test Value in (Volts) | Expected Output Value in (Degree Celcius)
 ----------------------|---------------------------------------------
  0.25        |    25
  0.72        |    72
